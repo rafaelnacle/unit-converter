@@ -10,4 +10,4 @@ It's pretty self-explanatory, but you can convert the following:
 
 It also shows the other way around! Have fun!
 
-![image](https://github.com/rafaelnacle/unit-converter/assets/54647722/5f331fd3-d6db-474b-bb98-b42c2e6cc4a2)
+![image](https://github.com/rafaelnacle/unit-converter/assets/54647722/674af5ad-23f7-4979-a753-abfe3e4077df)
