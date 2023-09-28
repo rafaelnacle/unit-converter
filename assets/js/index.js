@@ -4,6 +4,7 @@ const volumeEl = document.getElementById('volume');
 const massEl = document.getElementById('mass');
 const convertBtn = document.getElementById('convert-btn');
 const errorEl = document.getElementById('error');
+const clearBtn = document.getElementById('clear-btn');
 
 lengthEl.textContent = 0;
 volumeEl.textContent = 0;
@@ -21,6 +22,12 @@ convertBtn.addEventListener('click', function () {
   } else {
     errorEl.textContent = 'Please insert a positive number';
   }
+});
+
+clearBtn.addEventListener('click', function () {
+  unitEl.value = '';
+  unit = 0;
+  convert(0);
 });
 
 function convert(unit) {
