@@ -27,7 +27,7 @@ convertBtn.addEventListener('click', function () {
 clearBtn.addEventListener('click', function () {
   unitEl.value = '';
   unit = 0;
-  convert(0);
+  convert(unit);
 });
 
 function convert(unit) {
