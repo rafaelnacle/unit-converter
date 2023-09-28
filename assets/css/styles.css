@@ -1,0 +1,121 @@
+:root {
+  --background: #8C5CF2;
+  --secondary: #ffffff;
+  --tertiary: #F20587;
+  --featured: #1D1E26;
+  --text: #E4CEF2;
+  --cardTitle: #deceff;
+  --quartiary:#1D1E26;
+  --quinary: #F20587;
+}
+
+body {
+  background: var(--cardTitle);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+}
+
+.container {
+  width: 550px;
+  height: 730px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--background);
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 33px;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text);
+  
+}
+
+#header {
+  background: var(--featured);
+  height: 285px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#error {
+  margin-bottom: 0;
+}
+
+#unit-input {
+  width: 118px;
+  height: 83px;
+  background: none;
+  border: 1px solid var(--tertiary);
+  border-radius: 5px;
+
+  font-size: 58px;
+  font-weight: 800;
+  color: var(--text);
+
+  text-align: center;
+}
+
+/* Remove arrows from input type number on chrome, safari, edge, opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove arrows from input type number on firefox */
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+#convert-btn {
+  width: 118px;
+  min-height: 42px;
+  border: none;
+  background: var(--quinary);
+  border-radius: 5px;
+
+  margin-top: 16px;
+  margin-bottom: 34px;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: var(--secondary);
+  text-shadow: 0px 0px 1px black;
+}
+
+.card {
+  background-color: var(--quartiary);
+  width: 500px;
+  height: 108px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  border-radius: 5px;
+
+  box-shadow: 3px 5px 1px 0px var(--tertiary);
+}
+
+.card-title {
+  color: var(--cardTitle);
+  padding-top: 31px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.card-info {
+  color: var(--secondary);
+  font-size: 14px;
+}
